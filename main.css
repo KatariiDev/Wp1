@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.menu__nav {
+  background-color: rgb(255, 170, 50);
+  position: relative;
+  cursor: pointer;
+}
+
+/* .menu-left { */
+  /* position: absolute; */
+  /* background-color: rgb(255, 170, 50); */
+  /* left: 0; */
+/* } */
+
+.menu__nav-interact {
+  display: inline-block;
+  padding: 10px;
+}
+
+.menu__nav-interact:hover {
+  border: 1px solid black;
+  background-color: grey;
+}
+
+.menu-right {
+  position: absolute;
+  background-color: rgb(255, 170, 50);
+  display: inline-block;
+  top: 25%;
+  right: 10px;
+}
+
+.menu-right-sec {
+  display: inline-block;
+  padding: 0 5px 0 5px;
+}
+
+.symbols {
+  display: inline-block;
+}
